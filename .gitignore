@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local datasets, notebooks, and generated ML artifacts
+Dataset/
+*.csv
+*.npy
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.ipynb_checkpoints/
+*.zip
+
+# Optional local configuration
+.env
+.env.*
+!.env.example
